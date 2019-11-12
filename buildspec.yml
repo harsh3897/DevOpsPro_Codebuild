@@ -5,7 +5,8 @@ phases:
     runtime-versions:
       java: openjdk8
     commands:
-      - echo nothing to do in the install phase...
+      - apt-get update -y
+      - apt-get install maven -y
   pre_build:
     commands:
       - echo nothing to do in prebuild phase...
