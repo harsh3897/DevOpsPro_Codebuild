@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 public class TestMessageUtil {
 
     String message = "Harsh";
-    Messageutil messageUtil = new Messageutil(message);
+    Messageutil messageUtil = new MessageUtil(message);
 
     @Test
     public void testPrintMessage() {
