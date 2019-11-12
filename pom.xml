@@ -6,6 +6,9 @@
     <version>1.0</version>
     <packaging>jar</packaging>
     <name>Message Utility Java Sample App</name>
+    <properties>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
